@@ -31,8 +31,6 @@
 
 База данных разворачивается локально с помощью Microsoft SQL Server в папке App_Data
 Строка подключения:
-<connectionStrings>
-	<add name="PersonContext" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|PersonContext.mdf';Integrated Security=True" 	   providerName="System.Data.SqlClient" />
-</connectionStrings>
+add name="PersonContext" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|PersonContext.mdf';Integrated Security=True" 	   providerName="System.Data.SqlClient"
 
 Для запуска открыть файл .sln в VisualStudio и запустить проект
