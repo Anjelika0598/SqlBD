@@ -5,7 +5,7 @@
 Предметная область - список контактов
 
 в БД имеются 2 таблицы:
-1. People(
+1.People(
     PersonId
     FirstName
     LastName
